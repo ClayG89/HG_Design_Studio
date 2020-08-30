@@ -13,7 +13,7 @@ djangorestframework = "*"
 djangorestframework-simplejwt = "*"
 django-heroku = "*"
 ipython = "*"
-psycopg2 = "*"
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.8"
