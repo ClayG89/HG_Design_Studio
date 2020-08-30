@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'hg_design_app'
+    'hg_design_app',
+    'django_extensions'
 ]
 
 MIDDLEWARE = [

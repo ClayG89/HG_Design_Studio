@@ -8,12 +8,12 @@ verify_ssl = true
 [packages]
 django = "*"
 gunicorn = "*"
-psycopg2 = "*"
 django-extensions = "*"
 djangorestframework = "*"
 djangorestframework-simplejwt = "*"
 django-heroku = "*"
 ipython = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.8"
