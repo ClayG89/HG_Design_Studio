@@ -1,0 +1,14 @@
+{
+    "name": "hg_design",
+    "scripts": {
+      "build": "cd client && npm install && npm run build && cd ..",
+      "postinstall": "npm run build && echo 'Client built!'"
+    },
+    "dependencies": {
+      "axios": "^0.19.2",
+      "html-react-parser": "^0.13.0",
+      "nodemon": "^2.0.4",
+      "react-router-dom": "^5.1.2"
+    },
+    "devDependencies": {}
+  }
