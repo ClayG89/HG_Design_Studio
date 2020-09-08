@@ -14,6 +14,7 @@ djangorestframework-simplejwt = "*"
 django-heroku = "*"
 ipython = "*"
 psycopg2-binary = "*"
+django-paypal = "*"
 
 [requires]
 python_version = "3.8"

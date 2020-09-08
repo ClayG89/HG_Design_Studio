@@ -1,9 +1,11 @@
 from django.db import models
 from django.conf import settings
 
+
 class Item(models.Model):
     title = models.CharField(max_length=100)
     price = models.FloatField()
+    discount_price = models.FloatField(blank=True, null=True)
 
     def __str__(self):
         return self.title

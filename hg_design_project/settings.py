@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'hg_design_app',
-    'django_extensions'
+    'django_extensions',
+    'paypal.standard.ipn'
 ]
 
 MIDDLEWARE = [
