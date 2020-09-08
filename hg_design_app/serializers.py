@@ -13,4 +13,4 @@ class OrderItemSerializer(serializers.ModelSerializer):
         fields = ('id', 'item',)
 
 class OrderSerializer(serializers.ModelSerializer):
-    user = 
+    
