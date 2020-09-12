@@ -1,12 +1,13 @@
 .homeWrapper {
   display: grid;
-  grid-template-rows: 1.5fr 4fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
+  grid-template-rows: 1.5fr 4fr 1fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
 }
 .header {
   display: grid;
   grid-template-columns: 2.5fr 1fr 2.5fr;
   position: fixed;
   z-index: 99;
+  font-family: 'Raleway';
 }
 .navbar1 {
   display: grid;
@@ -14,6 +15,7 @@
 }
 .nb1top {
   background-color: black;
+  border-bottom: solid 3px sandybrown;
 }
 .navbar1 li {
   float: left;
@@ -25,17 +27,23 @@
 }
 .nb1Bottom {
   background-color: rgb(248, 193, 145);
+  border-bottom: solid 1px black;
+  color: white;
+  font-size: 32px;
+  text-align: center;
 }
 .logo1 {
   width: 100%;
   display: grid;
   grid-template-rows: 1fr .1fr;
   background-color: rgb(248, 193, 145);
+  border-bottom: solid 1px black;
   /* text-align: center; */
 }
 .logo1 img {
   border: solid 3px black;
-  border-radius: 3px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 .navbar2{
   display: grid;
@@ -46,6 +54,7 @@
   grid-template-columns: 2fr 1fr;
   background-color: black;
   color: sandybrown;
+  border-bottom: solid 3px sandybrown;
 }
 .searchBox {
   text-align: right;
@@ -63,32 +72,78 @@
 .nb2Bottom {
   background-color: rgb(248, 193, 145);
   color: white;
+  border-bottom: solid 1px black;
+  text-align: center;
 }
 .nb2Bottom p {
-  margin-left: 3em;
-  max-width: 225px;
+  font-size: 20px;
+  /* max-width: 225px; */
 }
 .openPic {
   background-image: url("/HG_pic1.jpeg");
   background-position: top;
   background-size: cover;
   margin-top: 205px;
-  height: 560px;
+  /* height: 560px; */
 }
 .serviceList {
- margin-top: 100px;
+ margin-top: 10px;
  text-align: center;
  background-image: url("/sandfootprints.jpg");
- background-size: 90%;
+ background-size: 100%;
  background-position: center;
  background-repeat: no-repeat;
 }
 .slAnimation div {
-  padding: 10px;
+  padding: 15px;
 }
 .slAnimation .title {
-  margin-top: 1em;
+  margin-top: 4em;
   font-size: 38px;
+}
+.slContainer {
+  font-size: 17px;
+}
+.hairGallery1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 20px;
+}
+.hgHairpic1 {
+  text-align: center;
+}
+.hgHairpic2 {
+  text-align: center;
+}
+.hgHairpic3 {
+  text-align: center;
+}
+.hairGallery2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 20px;
+}
+.hgHairpic4 {
+  text-align: center;
+}
+.hgHairpic5 {
+  text-align: center;
+  padding-top: 150px;
+}
+.hgHairpic6Container {
+  display: grid;
+  grid-template-rows: .7fr 1fr;
+}
+.hgHairpic6 {
+  text-align: center;
+}
+.hgHairpic7Container {
+  display: grid;
+  grid-template-rows: .7fr 1fr;
+}
+.hgHairpic7 {
+  text-align: center;
+  padding-top: 150px;
 }
 
 /* .logo1Bottom {
