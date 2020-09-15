@@ -1,6 +1,6 @@
 .homeWrapper {
   display: grid;
-  grid-template-rows: 1.5fr 4fr 1fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
+  grid-template-rows: 1.5fr 4.1fr 1fr 3fr 1fr 2.8fr 1.3fr .5fr .1fr;
 }
 .header {
   display: grid;
@@ -26,7 +26,7 @@
   font-size: 18px;
 }
 .nb1Bottom {
-  background-color: rgb(248, 193, 145);
+  background-color: rgb(250, 149, 109);
   border-bottom: solid 1px black;
   color: white;
   font-size: 32px;
@@ -36,7 +36,7 @@
   width: 100%;
   display: grid;
   grid-template-rows: 1fr .1fr;
-  background-color: rgb(248, 193, 145);
+  background-color: rgb(250, 149, 109);
   border-bottom: solid 1px black;
   /* text-align: center; */
 }
@@ -70,7 +70,7 @@
   background-color: sandybrown;
 }
 .nb2Bottom {
-  background-color: rgb(248, 193, 145);
+  background-color: rgb(250, 149, 109);
   color: white;
   border-bottom: solid 1px black;
   text-align: center;
@@ -84,30 +84,30 @@
   background-position: top;
   background-size: cover;
   margin-top: 205px;
-  /* height: 560px; */
 }
 .serviceList {
- margin-top: 10px;
+ margin-top: 30px;
  text-align: center;
  background-image: url("/sandfootprints.jpg");
  background-size: 100%;
  background-position: center;
  background-repeat: no-repeat;
+ font-family: Raleway;
 }
 .slAnimation div {
   padding: 15px;
 }
 .slAnimation .title {
-  margin-top: 4em;
+  margin-top: 2em;
   font-size: 38px;
 }
 .slContainer {
-  font-size: 17px;
+  font-size: 19px;
 }
 .hairGallery1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .hgHairpic1 {
   text-align: center;
@@ -120,8 +120,12 @@
 }
 .hairGallery2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-top: 20px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+}
+.container1 {
+  display: grid;
+  grid-template-rows: 1fr .3fr 1fr;
 }
 .hgHairpic4 {
   text-align: center;
@@ -130,20 +134,149 @@
   text-align: center;
   padding-top: 150px;
 }
-.hgHairpic6Container {
+.container2 {
   display: grid;
-  grid-template-rows: .7fr 1fr;
+  grid-template-rows: .2fr .65fr;
+}
+.container2 .row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .hgHairpic6 {
   text-align: center;
 }
-.hgHairpic7Container {
-  display: grid;
-  grid-template-rows: .7fr 1fr;
-}
 .hgHairpic7 {
   text-align: center;
+  padding-top: 180px;
+}
+.hgHairpic8 {
+  text-align: center;
+  padding-top: 15px;
+}
+.hgHairpic9 {
+  text-align: center;
+  padding-top: 40px;
+}
+.hgHairpic10 {
+  text-align: center;
+  padding-top: 160px;
+}
+
+.container2 .row1 {
+font-family: Raleway;
+font-size: 30px;
+padding: 3em;
+margin-top: 40px;
+max-width: 450px;
+}
+.container2 .column3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.container1 .row3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container1 .row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container1 .row2 {
+text-align: center;
+padding-top: 50px;
+}
+.hairGallery3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.hgHairpic14 {
+  text-align: center;
+}
+.hgHairpic15 {
+  text-align: center;
   padding-top: 150px;
+}
+.hgHairpic16 {
+  text-align: center;
+}
+.hgHairpic17 {
+  text-align: center;
+  padding-top: 180px;
+}
+.hgHairpic18 {
+  text-align: center;
+  padding-top: 15px;
+}
+.hgHairpic19 {
+  text-align: center;
+  padding-top: 40px;
+}
+.hgHairpic20 {
+  text-align: center;
+  padding-top: 160px;
+}
+.bio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: rgb(16, 16, 32); */
+  background-image: url("/HG_background4.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+  color: white;
+  font-size: 23px;
+  font-family: 'Raleway';
+
+}
+.bioPhoto img {
+  margin-top: 1.5em;
+  border-radius: 4px;
+}
+.bioPhoto {
+  text-align: center;
+}
+.bioText {
+  /* text-align: center; */
+  max-width: 625px;
+  margin-left: 1em;
+}
+.bioBox2 {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 1.5em;
+}
+.customerService {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: .1fr .3fr;
+  background-color: sandybrown;
+  margin-top: 40px;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+  text-align: center;
+  font-size: 18px;
+}
+.customerCare h3 {
+  border-bottom: solid 1px black;
+}
+.connect h3 {
+  border-bottom: solid 1px black;
+}
+.connect p {
+  text-decoration: underline;
+}
+.connect button {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+}
+.paymentOptions h3 {
+  border-bottom: solid 1px black;
+}
+.iconBox {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
 }
 
 /* .logo1Bottom {
