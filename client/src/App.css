@@ -278,6 +278,15 @@ padding-top: 50px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
 }
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Raleway';
+  font-size: 12px;
+}
+.create {
+  margin-left: 1em;
+}
 
 /* .logo1Bottom {
   background-color: peachpuff;

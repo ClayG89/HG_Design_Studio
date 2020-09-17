@@ -148,17 +148,17 @@ export default class Home extends Component {
                 <div className="hairGallery1">
                     <Slide left>
                         <div className="hgHairpic1">
-                            <img src="/HG_hairpic1.jpg" width="425" alt="pic1"/>
+                            <img src="/HG_hairpic1.jpg" width="425" alt="pic1" />
                         </div>
                     </Slide>
                     <Fade top cascade>
                         <div className="hgHairpic2">
-                            <img src="/HG_hairpic2.jpg" width="425" alt="pic2"/>
+                            <img src="/HG_hairpic2.jpg" width="425" alt="pic2" />
                         </div>
                     </Fade>
                     <Slide right>
                         <div className="hgHairpic3">
-                            <img src="/HG_hairpic3.jpg" width="425" alt="pic3"/>
+                            <img src="/HG_hairpic3.jpg" width="425" alt="pic3" />
                         </div>
                     </Slide>
                 </div>
@@ -167,25 +167,25 @@ export default class Home extends Component {
                         <div className="row1">
                             <Flip left cascade>
                                 <div className="hgHairpic4">
-                                    <img src="/HG_hairpic4.jpg" width="315" alt="pic4"/>
+                                    <img src="/HG_hairpic4.jpg" width="315" alt="pic4" />
                                 </div>
                             </Flip>
                             <Flip left cascade>
                                 <div className="hgHairpic5">
-                                    <img src="/HG_hairpic5.jpg" width="315" alt="pic4"/>
+                                    <img src="/HG_hairpic5.jpg" width="315" alt="pic4" />
                                 </div>
                             </Flip>
                         </div>
                         <div className="row2">
-                            <img src="/HG_Logo1.png" width="500" alt="logo"/>
+                            <img src="/HG_Logo1.png" width="500" alt="logo" />
                         </div>
                         <div className="row3">
                             <Flip left cascade>
                                 <div className="hgHairpic10">
-                                    <img src="/HG_hairpic10.jpg" width="315" alt="pic10"/>
+                                    <img src="/HG_hairpic10.jpg" width="315" alt="pic10" />
                                 </div>
                                 <div className="hgHairpic9">
-                                    <img src="/HG_hairpic9.jpg" width="315" alt="pic9"/>
+                                    <img src="/HG_hairpic9.jpg" width="315" alt="pic9" />
                                 </div>
                             </Flip>
                         </div>
@@ -199,16 +199,16 @@ export default class Home extends Component {
                             <Flip left cascade>
                                 <div className="column3">
                                     <div className="hgHairpic6">
-                                        <img src="/HG_hairpic6.jpg" width="315" alt="pic6"/>
+                                        <img src="/HG_hairpic6.jpg" width="315" alt="pic6" />
                                     </div>
                                     <div className="hgHairpic8">
-                                        <img src="/HG_hairpic8.jpg" width="315" alt="pic8"/>
+                                        <img src="/HG_hairpic8.jpg" width="315" alt="pic8" />
                                     </div>
                                 </div>
                             </Flip>
                             <Flip left cascade>
                                 <div className="hgHairpic7">
-                                    <img src="/HG_hairpic7.jpg" width="315" alt="pic7"/>
+                                    <img src="/HG_hairpic7.jpg" width="315" alt="pic7" />
                                 </div>
                             </Flip>
                         </div>
@@ -217,17 +217,17 @@ export default class Home extends Component {
                 <div className="hairGallery3">
                     <Slide left>
                         <div className="hgHairpic1">
-                            <img src="/HG_hairpic11.jpg" width="425" alt="pic11"/>
+                            <img src="/HG_hairpic11.jpg" width="425" alt="pic11" />
                         </div>
                     </Slide>
                     <Fade top cascade>
                         <div className="hgHairpic2">
-                            <img src="/HG_hairpic12.jpg" width="425" alt="pic12"/>
+                            <img src="/HG_hairpic12.jpg" width="425" alt="pic12" />
                         </div>
                     </Fade>
                     <Slide right>
                         <div className="hgHairpic3">
-                            <img src="/HG_hairpic13.jpg" width="425" alt="pic13"/>
+                            <img src="/HG_hairpic13.jpg" width="425" alt="pic13" />
                         </div>
                     </Slide>
                 </div>
@@ -236,25 +236,25 @@ export default class Home extends Component {
                         <div className="row1">
                             <Flip left cascade>
                                 <div className="hgHairpic14">
-                                    <img src="/HG_hairpic14.jpg" width="315" alt="pic14"/>
+                                    <img src="/HG_hairpic14.jpg" width="315" alt="pic14" />
                                 </div>
                             </Flip>
                             <Flip left cascade>
                                 <div className="hgHairpic15">
-                                    <img src="/HG_hairpic15.jpg" width="315" alt="pic15"/>
+                                    <img src="/HG_hairpic15.jpg" width="315" alt="pic15" />
                                 </div>
                             </Flip>
                         </div>
                         <div className="row2">
-                            <img src="/HG_Logo1.png" width="500" alt="logo"/>
+                            <img src="/HG_Logo1.png" width="500" alt="logo" />
                         </div>
                         <div className="row3">
                             <Flip left cascade>
                                 <div className="hgHairpic20">
-                                    <img src="/HG_hairpic20.jpg" width="315" alt="pic20"/>
+                                    <img src="/HG_hairpic20.jpg" width="315" alt="pic20" />
                                 </div>
                                 <div className="hgHairpic19">
-                                    <img src="/HG_hairpic19.jpg" width="315" alt="pic19"/>
+                                    <img src="/HG_hairpic19.jpg" width="315" alt="pic19" />
                                 </div>
                             </Flip>
                         </div>
@@ -268,16 +268,16 @@ export default class Home extends Component {
                             <Flip left cascade>
                                 <div className="column3">
                                     <div className="hgHairpic16">
-                                        <img src="/HG_hairpic16.jpg" width="315" alt="pic16"/>
+                                        <img src="/HG_hairpic16.jpg" width="315" alt="pic16" />
                                     </div>
                                     <div className="hgHairpic18">
-                                        <img src="/HG_hairpic18.jpg" width="315" alt="pic18"/>
+                                        <img src="/HG_hairpic18.jpg" width="315" alt="pic18" />
                                     </div>
                                 </div>
                             </Flip>
                             <Flip left cascade>
                                 <div className="hgHairpic17">
-                                    <img src="/HG_hairpic17.jpg" width="315" alt="pic17"/>
+                                    <img src="/HG_hairpic17.jpg" width="315" alt="pic17" />
                                 </div>
                             </Flip>
                         </div>
@@ -285,7 +285,7 @@ export default class Home extends Component {
                 </div>
                 <div className="bio">
                     <div className="bioPhoto">
-                        <img src="/HG_biopic2.jpg" width="420" alt="biopic2"/>
+                        <img src="/HG_biopic2.jpg" width="420" alt="biopic2" />
                     </div>
                     <div className="bioBox2">
                         <div className="bioText">
@@ -322,18 +322,26 @@ export default class Home extends Component {
                         <h3>Payment Options</h3>
                         <div className="iconBox">
                             <div>
-                                <img src="/HG_visa_icon.jpg" width="50" alt="visa"/>
+                                <img src="/HG_visa_icon.jpg" width="50" alt="visa" />
                             </div>
                             <div>
-                                <img src="/HG_mastercard_icon.png" width="50" alt="mastercard"/>
+                                <img src="/HG_mastercard_icon.png" width="50" alt="mastercard" />
                             </div>
                             <div>
-                                <img src="/HG_amex_icon.png" width="50" alt="amex"/>
+                                <img src="/HG_amex_icon.png" width="50" alt="amex" />
                             </div>
                             <div>
-                                <img src="/HG_paypal_icon.jpg" width="50" alt="paypal"/>
+                                <img src="/HG_paypal_icon.jpg" width="50" alt="paypal" />
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="footer">
+                    <div className="create">
+                        <p>Site created by Clayborn Guess using REACT, DjangoREST framework and PostgreSQL.</p>
+                    </div>
+                    <div className="cgsite">
+                        <p>www.ClaybornGuess.com</p>
                     </div>
                 </div>
             </div>
