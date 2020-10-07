@@ -6,6 +6,9 @@ import Jewelry from './components/Jewelry';
 import Products from './components/Products';
 import './App.css';
 
+axios.defaults.xsrfCookieName = 'csrftoken'
+axios.defaults.xsrfHeaderName = 'X-CSRFToken'
+
 function App() {
   return (
     <Router>
