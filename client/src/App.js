@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Jewelry from './components/Jewelry';
 import Products from './components/Products';
 import './App.css';
+import axios from 'axios';
 
 axios.defaults.xsrfCookieName = 'csrftoken'
 axios.defaults.xsrfHeaderName = 'X-CSRFToken'

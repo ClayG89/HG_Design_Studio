@@ -3,6 +3,10 @@ import React, { Component } from 'react'
 import Flip from 'react-reveal/Flip';
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
+import axios from 'axios';
+
+axios.defaults.xsrfCookieName = 'csrftoken'
+axios.defaults.xsrfHeaderName = 'X-CSRFToken'
 
 
 export default class Home extends Component {

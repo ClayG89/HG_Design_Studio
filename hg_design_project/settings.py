@@ -18,6 +18,7 @@ REACT_APP_DIR = os.path.join(BASE_DIR, 'client')
 
 STATICFILES_DIRS = [
     os.path.join(REACT_APP_DIR, 'build', 'static')
+]
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
